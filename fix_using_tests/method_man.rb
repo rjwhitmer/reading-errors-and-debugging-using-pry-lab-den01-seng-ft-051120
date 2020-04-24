@@ -1,9 +1,14 @@
 # don't forget to add: require 'pry'
 
+require 'pry'
+
 def start_game(player1, player2)
-  "Hello #{player1} & #{playar2}"
+  solution = "Hello #{player1} & #{player2}"
+  return solution
 end
 
-def play_game(player2)
-  "#{player1} is better than #{player2}"
+def play_game(player1, player2)
+  solution = "#{player1} is better than #{player2}"
+  return solution
 end
+#binding.pry
