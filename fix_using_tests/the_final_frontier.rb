@@ -20,7 +20,7 @@ end
 def engage
   star_date = generate_star_date
   #state_log = captains_log(star_date)
-  puts "Captain's Log, star date"
+  puts "Captain's Log, star date "
   #crew_greetings
   #binding.pry
 end
